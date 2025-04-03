@@ -68,7 +68,9 @@ y_valid = np.array(df_valid['label'])
 Model Consists :
 
 ●	Embedding Layer for text representation
+
 ●	LSTM Layers for sequential data processing
+
 ●	Dense Layers for classification
 
 import tensorflow as tf
@@ -145,5 +147,6 @@ print(predict_sentiment(test_text))
 **Step 8: Model Validation**
 
 ●	The model predicts sentiment for a given tweet.
+
 ●	The trained model can be used for further testing.
 
